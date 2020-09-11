@@ -1,0 +1,94 @@
+body
+{
+
+
+}
+#mynav
+{
+    background-color:white; 
+}
+ #mynav a:hover
+{
+    width: 100%;
+    /* background-color: blueviolet;  */
+    color:#ff8533;
+}
+
+
+#carouselExampleIndicators
+{
+    background-image:url("images\\hero_2.jpg");
+    background-size: cover;
+    margin-top: 8vh;
+    height: 90vh;
+    opacity: .4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.center
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#galleryb
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-content: space-between; */
+}
+#galleryb input
+{
+   border-top-left-radius: 100px;
+   border-top-right-radius: 100px;
+   border-bottom-left-radius: 100px;
+   border-bottom-right-radius: 100px;
+   background-color:#d9d9d9;
+   margin-left: 2%;
+}
+#galleryb input:hover
+{
+   background-color:orange;
+}
+.butt
+{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color:orange;
+}
+#bfirst
+{
+    background-color:orange;
+    margin-left: 46%;
+    margin-top: 13%;
+    z-index: 1;
+
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.logoImag
+{
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.round
+{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
